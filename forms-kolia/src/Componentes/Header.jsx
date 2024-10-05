@@ -1,14 +1,13 @@
 export default function Header(){
     return(
         <>
-         <div className="bg-zinc-900 w-full">
-            <img className="w-96 p-5" src="../../public/logoKolia.PNG" alt="" />
+         <div>
+            <img className="w-60 p-5" src="../../public/logo-kolia.PNG" alt="" />
          </div>
 
-         <h1 className="text-center font-bold">Realize o Pré Check-In</h1>
+         <div className="w-full bg-black h-[1px]"></div>
 
-         <form action=""></form>
-         
+         <h1 className="text-center font-extrabold font-montserrat text-4xl mt-10">Realize o Pré Check-in</h1>    
         </>
     )
 }
